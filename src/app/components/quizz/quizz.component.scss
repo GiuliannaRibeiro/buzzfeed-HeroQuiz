@@ -1,0 +1,120 @@
+.quizz__container {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.quizz__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+
+  > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: white;
+    color: #22272e;
+    width: 100%;
+    height: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 1.8rem;
+  }
+
+  img {
+    max-width: 250px;
+  }
+}
+
+.quizz__question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #644ed2;
+  width: 100%;
+  height: 150px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quizz__options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+  .btn__option {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 49%;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    margin: 8px 4px 0;
+
+    &:hover {
+      background-color: #a94dff;
+      color: #22272e;
+      border: none;
+    }
+
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+  }
+}
+
+.quizz__results {
+  width: 100%;
+  // height: 300px;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    cursor: pointer;
+    margin-top: 12px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 16px 31px;
+    border-radius: 8px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+.quizz__image {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  background-size: 400px 200px;
+  background-repeat: no-repeat;
+}
+
+.Hero {
+  background-color: #30d863;
+}
+
+
+.Villain {
+  background-color: #8a0728;
+}
